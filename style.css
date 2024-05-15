@@ -35,6 +35,13 @@ section#login{
     border-radius: 20px;
     box-shadow: 0px 0px 15px solid var(--cor01);
 }
+section#login>div#img{
+    background: url(imagens/pexels-neo-853421-2653362.jpg) no-repeat;
+    background-size: cover;
+    height: 200px;
+    background-position: right bottom;
+    display: block;
+}
 
 div#formulario>h1{
     text-align: center;
@@ -43,7 +50,4 @@ div#formulario>h1{
 div#formulario>p{
     text-align: center;
     font-size: 0.9em;
-}
-div#img{
-    background:url(imagens/pexels-neo-853421-2653362\ \(1\).jpg);
 }
