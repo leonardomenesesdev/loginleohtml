@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mq.css">
 </head>
 <body>
     <main>
@@ -22,16 +22,16 @@
                         <span class="material-symbols-outlined">
                             person
                             </span>
-                        <input type="email" name="email" id="iemail">
-                        <label for="iemail">email</label>
+                        <input type="email" name="email" id="iemail" placeholder="Seu email">
+                        <label for="iemail">Login</label>
 
                     </div>
                     <div class="dados">
                         <span class="material-symbols-outlined">
                             lock
                             </span>
-                        <input type="password" name="senha" id="isenha">
-                        <label for="isenha">senha</label>
+                        <input type="password" name="senha" id="isenha" placeholder="Sua senha" required minlength="8">
+                        <label for="isenha">Senha</label>
                     </div>
                     <div class="enviar">
                         <input type="submit" value="Entrar">

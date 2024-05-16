@@ -34,6 +34,8 @@ section#login{
     overflow: hidden;
     border-radius: 20px;
     box-shadow: 0px 0px 15px solid var(--cor01);
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
 section#login>div#img{
     background: url(imagens/pexels-neo-853421-2653362.jpg) no-repeat;
@@ -46,8 +48,72 @@ section#login>div#img{
 div#formulario>h1{
     text-align: center;
     margin-bottom: 10px;
+    color: #323acf;
+
 }
 div#formulario>p{
     text-align: center;
     font-size: 0.9em;
 }
+div.dados>label{
+    display: none;
+}
+div.dados>input{
+    background-color: #7075ca;
+    border-radius: 10px;
+    height: 100%;
+    width: calc(100%-45%);
+    font-size: 1em;
+    transform: translateY(-2px);
+    border: 0px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.712);
+    padding: 4px;
+}
+div.dados>input:focus-within{
+    background-color: white;
+    border: 0px;
+}
+div.dados>span{
+    width: 40px;
+    color: #636991;
+    background-color: #CED3F2;
+    border-radius: 10px;
+    font-size: 1.5em;
+    margin-left: 20px;
+    margin-right: -15px;
+}
+div.enviar>input[type=submit]{
+    display: block;
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: #0A0E59;
+    color: aliceblue;
+    box-shadow: 0px 0px 7px black;
+    cursor: pointer;
+}
+div.enviar>input[type=submit]:hover{
+    background-color: #2941e0;
+}
+div.enviar>a{
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    font-size: 0.8em;
+    background-color: #0A0E59;
+    width: 60%;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 20px;
+    height: 30px;
+    padding-top: 5px;
+    color: aliceblue;
+}
+div.enviar>a:hover{
+    background-color:#2941e0;
+}
+
